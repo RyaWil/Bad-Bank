@@ -1,6 +1,6 @@
 function Deposit(){
      const [ show, setShow]      = React.useState(true);
-     const [status, setStaus]    = React.useState('');
+     const [status, setStatus]    = React.useState('');
      const [amount, setAmount]   = React.useState('');
      const ctx = React.useContext(UserContext);
 
